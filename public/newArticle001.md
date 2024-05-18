@@ -213,6 +213,30 @@ Successful!
 open in browser を押すようだ。
 ![image-4.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3550857/8dc8f42b-8a34-8803-ced3-ac8498580bb7.png)
 
+# 記事はどう書くのか
+
+```md
+title: #記事のタイトル
+tags:
+
+- Qiita # - タグ名　の形式で書いていく
+- GitHub
+- QiitaCLI
+
+  private: false 　#true なら限定公開
+  updated_at: #空白で良い
+  id: #空白で良い
+  organization_url_name: #https://qiita.com/organizations/組織名 という URL だったら,組織名　という値を書く。
+
+  slide: false #default のまま
+  ignorePublish: false 　 #default のまま
+
+  #あとは以下に markdown 形式で記事を書いていく、、、
+  .
+  .
+  .
+```
+
 # github で管理したい
 
 [ Qiita の記事を GitHub 管理する方法](https://qiita.com/ryocha12/items/e412306f9e8339d7cffe)
