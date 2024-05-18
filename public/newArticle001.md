@@ -216,3 +216,33 @@ open in browser を押すようだ。
 # github で管理したい
 
 [ Qiita の記事を GitHub 管理する方法](https://qiita.com/ryocha12/items/e412306f9e8339d7cffe)
+
+ひとまず git で commit までする。
+
+```
+qlita git  init
+git add .
+git ci -m "qlita記事用のリポジトリの作成"
+
+```
+
+そして github で public でリポジトリを作成する。
+Actions secrets and variables の Repository secrets で
+QIITA_TOKEN の値に qlita の最初に発行したトークンを入力して作成
+![alt text](image-5.png)
+
+あとは main ブランチに push するだけで記事の投稿・更新ができるとのこと
+
+push しなくても以下の記述の通り pubish コマンドで記事の公開と更新ができるよう。
+せっかくなら push して更新した方がいいかな。
+
+> push する以外にも以下コマンドや、Qiita Preview 上の「記事を投稿す る」ボタンからも記事の投稿・更新をする事が出来ます。
+
+```
+npx qiita publish 記事のファイルのベース名 # newArticle001.md だった場合は newArticle001
+npx qiita publish --all # 全ての記事を反映
+npx qiita publish 記事ファイルのベース名 --force # 強制的に記事ファイルの内容を Qiita に反映
+```
+
+今後は CLI を使って記事の投稿を行い
+記事作成時間の削減に努めたい。
