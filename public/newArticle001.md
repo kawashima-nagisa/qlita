@@ -5,7 +5,7 @@ tags:
   - GitHub
   - QiitaCLI
 private: false
-updated_at: '2024-05-18T15:32:23+09:00'
+updated_at: "2024-05-18T15:32:23+09:00"
 id: 1810647fc4498c6d1da4
 organization_url_name: hab-co
 slide: false
@@ -15,7 +15,7 @@ ignorePublish: false
 # QiitaCLI を使って記事を投稿したい
 
 qlita に記事を真面目に投稿しようと考えたのだが
-正直 qlita の記事の更新ボタンがどこにあるのかわからなくて手間取った。
+正直 qlita の記事の更新ボタンがどこにあるのかわからなくて手間取った。(今ならわかる)
 調べてみると qlita CLI という手元の環境で記事の執筆・プレビュー・投稿ができるツールがあることがわかり、
 qlita を使いこなせない自分に合っていると思ったので
 導入したいと考えた。
