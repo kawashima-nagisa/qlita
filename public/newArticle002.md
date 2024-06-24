@@ -6,7 +6,6 @@ tags:
   - Letter opner
   - 備忘録
   - 自己満
-  - 小ネタ
 private: false
 updated_at:
 id:
