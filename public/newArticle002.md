@@ -67,7 +67,7 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime && \
 
 下記の方法を最初は試していましたが、docker のシステムタイムゾーンは変わりませんでした。
 
-```Dockerfile
+```docker-compose.yml
 version: '3'
 services:
   web:
