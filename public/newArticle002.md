@@ -7,7 +7,7 @@ tags:
   - letter_opener_web
   - letter_opener
 private: false
-updated_at: "2024-06-24T22:11:35+09:00"
+updated_at: '2024-06-24T22:13:03+09:00'
 id: 64d66fdbe394875d3e84
 organization_url_name: hab-co
 slide: false
