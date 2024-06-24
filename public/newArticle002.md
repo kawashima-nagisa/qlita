@@ -3,12 +3,12 @@ title: dockerを使ったrails環境でのletter_opnerのtimezoneの設定
 tags:
   - Rails
   - Docker
-  - Letter opner
-  - 備忘録
-  - 自己満
+  - メール送信
+  - letter_opener_web
+  - letter_opener
 private: false
-updated_at:
-id:
+updated_at: '2024-06-24T22:11:35+09:00'
+id: 64d66fdbe394875d3e84
 organization_url_name: hab-co
 slide: false
 ignorePublish: false
@@ -29,22 +29,22 @@ config.i18n.default_locale = :ja
 #Railsはデータベースに保存される時刻を日本時間で保存
 ```
 
-としてコンソールで確認
-きちんと日本時間になっている
+としてコンソールで確認すると
+きちんと日本時間になっています。
 
 ```
 Time.now  #出力結果 =>2024-05-22 14:16:09.609170085 +0900
 ```
 
-再度 letter_opner でテスト送信をしてみる
-なぜか送信時間は UTC のまま。
-Docker コンテナのタイムゾーンを確認してみる
+再度 letter_opner でテスト送信をしてみると
+なぜか送信時間は UTC のままです。
+Docker コンテナのタイムゾーンを確認して見ます。
 
 ```
 docker-compose exec web date #出力結果=>Thu Jun 20 00:51:34 UTC 2024
 ```
 
-docker コンテナのシステムタイムゾーンが UTC に設定されてしまっている
+"docker コンテナのシステムタイムゾーンが UTC に設定されてしまっている”
 
 # Docker コンテナのタイムゾーン設定と letter_opener でのメール表示における問題の解決
 
@@ -94,3 +94,7 @@ Docker を使った rails 環境での timezone には、コンテナ内のシ�
 Docker コンテナ内のタイムゾーンが UTC に設定されていると、letter_opener などのツールでの時間表示がずれてしまうことがあります。この記事では、Dockerfile または docker-compose.yml でタイムゾーンを Asia/Tokyo に変更する方法を紹介しました。
 
 この設定を行うことで、開発中のコンテナ内での時間表示の不一致を解消することができました。
+
+参考記事
+
+[zsh-autosuggestions](https://zenn.dev/ryouzi/articles/dda18594f2dbd3)
