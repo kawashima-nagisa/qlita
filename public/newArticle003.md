@@ -1,14 +1,14 @@
 ---
 title: web制作アニメーション備忘録　パート①
 tags:
-  - Wordpress
   - CSS
-  - Web制作
+  - WordPress
   - Sass
-  - GSAP
+  - Web制作
+  - gsap
 private: false
-updated_at: ""
-id: null
+updated_at: '2024-10-28T12:49:56+09:00'
+id: b815e1aa864da219f334
 organization_url_name: hab-co
 slide: false
 ignorePublish: false
