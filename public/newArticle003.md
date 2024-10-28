@@ -122,7 +122,7 @@ image.addEventListener('mouseleave', function () {
 
 ### 完成イメージ
 
-![スポットライト](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3550857/aed749cf-b51f-73b1-7263-93ffe33ffd62.gif)
+![画面収録-2024-10-28-11.49.12.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3550857/aed749cf-b51f-73b1-7263-93ffe33ffd62.gif)
 
 clip-path を利用して、背景画像の一部をスポットライトのように切り抜き、アニメーションでその切り抜き範囲を動かします。
 
