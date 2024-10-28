@@ -7,7 +7,7 @@ tags:
   - Web制作
   - gsap
 private: false
-updated_at: '2024-10-28T12:49:56+09:00'
+updated_at: "2024-10-28T12:49:56+09:00"
 id: b815e1aa864da219f334
 organization_url_name: hab-co
 slide: false
@@ -122,7 +122,7 @@ image.addEventListener('mouseleave', function () {
 
 ### 完成イメージ
 
-![画面収録-2024-10-28-11.49.12.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3550857/aed749cf-b51f-73b1-7263-93ffe33ffd62.gif)
+![画面収録-2024-10-28-12.57.34.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3550857/e025f3d3-68f7-e1d8-3741-a53432983f0e.gif)
 
 clip-path を利用して、背景画像の一部をスポットライトのように切り抜き、アニメーションでその切り抜き範囲を動かします。
 
