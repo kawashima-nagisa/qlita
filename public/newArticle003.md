@@ -4,7 +4,6 @@ tags:
   - Wordpress
   - CSS
   - Web制作
-  - Web制作アニメーション
   - Sass
   - GSAP
 private: false
