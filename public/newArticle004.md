@@ -5,7 +5,7 @@ tags:
   - FetchAPI
   - Stimulus
 private: false
-updated_at: '2024-11-02T12:50:02+09:00'
+updated_at: "2024-11-02T12:50:02+09:00"
 id: 6b03a99ff7b329826384
 organization_url_name: hab-co
 slide: false
@@ -26,8 +26,6 @@ description:text: ユーザーの説明（自己紹介など）
 #### users コントローラを作成して以下の show アクションに特定のユーザーの詳細情報を JSON 形式で返す記述をする
 
 index.html.erb で UI 構造を作成し、show アクションでデータのみを提供するという流れにします。
-
-app/controllers/users_controller.rb
 
 ```ruby
 class UsersController < ApplicationController
