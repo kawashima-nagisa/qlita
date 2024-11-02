@@ -5,7 +5,7 @@ tags:
   - FetchAPI
   - Stimulus
 private: false
-updated_at: "2024-11-02T12:50:02+09:00"
+updated_at:
 id: 6b03a99ff7b329826384
 organization_url_name: hab-co
 slide: false
