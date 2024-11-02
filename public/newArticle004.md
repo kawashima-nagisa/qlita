@@ -88,7 +88,7 @@ export default class extends Controller {
 また、`data-action="change->user#loadUserData"` と書くことで
 select の選択が変更されたときに、user という名前の Stimulus コントローラーにある loadUserData メソッドが実行される、という意味になります。
 
-```html
+```erb
 <!-- app/views/users/index.html.erb -->
 <div data-controller="user">
 	<label for="userDropdown">ユーザーを選択:</label>
