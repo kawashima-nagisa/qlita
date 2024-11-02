@@ -2,7 +2,7 @@
 title: StimulusとFetch APIで簡単に動的なデータ表示を作成する方法
 tags:
   - Rails
-  - Fetch API
+  - FetchAPI
   - Stimulus
 private: false
 updated_at: ""
