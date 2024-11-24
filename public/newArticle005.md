@@ -5,7 +5,7 @@ tags:
   - Stimulus
   - Rails7
 private: false
-updated_at: '2024-11-25T00:06:41+09:00'
+updated_at: "2024-11-25T00:03:36+09:00"
 id: d2684d6af33e6b047df2
 organization_url_name: hab-co
 slide: false
@@ -44,14 +44,14 @@ npm や yarn などを使わないで GSAP を導入しようとする場合
 bin/importmap pin gsap
 ```
 
-この場合、次のエラーが発生します：
+この場合、次のエラーが発生します。
 
 ```bash
 Cannot set property window of #<Window> which has only a getter
 ```
 
 2. CDN で読み込む場合の問題
-   CDN 経由で GSAP を読み込むと、グローバルスコープに直接 GSAP オブジェクトを登録します。しかし、Stimulus コントローラ内でモジュールとして扱おうとするとエラーが発生することがあります：
+   CDN 経由で GSAP を読み込むと、グローバルスコープに直接 GSAP オブジェクトを登録します。しかし、Stimulus コントローラ内でモジュールとして扱おうとするとエラーが発生することがあります。
 
 ```sh
 Uncaught SyntaxError: The requested module 'gsap' does not provide an export named 'gsap'
@@ -61,7 +61,7 @@ Uncaught SyntaxError: The requested module 'gsap' does not provide an export nam
 
 CDN と Stimulus の併用
 GSAP を CDN 経由で読み込む
-Rails の application.html.erb に CDN のスクリプトタグを追加します：
+Rails の application.html.erb に CDN のスクリプトタグを追加します。
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
