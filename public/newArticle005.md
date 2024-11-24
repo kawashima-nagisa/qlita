@@ -1,12 +1,12 @@
 ---
 title: RailsとGSAPを連携する方法：StimulusとCDNでアニメーションを実現する
 tags:
-  - "Stimulus"
-  - "Rails7"
-  - "GSAP"
+  - gsap
+  - Stimulus
+  - Rails7
 private: false
-updated_at: ""
-id: null
+updated_at: '2024-11-25T00:03:36+09:00'
+id: d2684d6af33e6b047df2
 organization_url_name: hab-co
 slide: false
 ignorePublish: false
